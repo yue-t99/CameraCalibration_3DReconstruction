@@ -11,9 +11,10 @@ Then, the edge detection and ellipse detection are carried out on the image to l
 Using the numbering rules of the polar coordinates, the number of the control points on the control point map is corresponded with the control point on the image one by one. 
 
 Here is the result of labelling:
+
 | Original Labelling Map | Automatically Labelling Map | Automatically Labelling Image |
 |--|--|--|
-| ![](Rule4ControlPoint.jpg) |![](/re_pics/label_re.png)| ![](/re_pic/label_re_1.jpg)|
+| ![](Rule4ControlPoint.jpg) |![](/re_pics/label_re.png)| ![](/re_pics/label_re_1.png)|
 
 # Exterior Parameters Calculation
 Computed exterior parameters based on control points pairs with known 3D coordinates using 2D DLT models and Bundle Adjustment methods.
@@ -34,7 +35,9 @@ Computed exterior parameters based on control points pairs with known 3D coordin
 
 # SIFT for Image Matching
 Applied SIFT algorithm for detecting corresponding points. Employed exterior parameters for depth estimation for both corresponding points pair and control points, and evaluated the precision.
+
 Result of SIFT:
+
 ![](/re_pics/SIFT.jpg)
 
 
