@@ -13,7 +13,7 @@ Using the numbering rules of the polar coordinates, the number of the control po
 Here is the result of labelling:
 | Original Labelling Map | Automatically Labelling Map | Automatically Labelling Image |
 |--|--|--|
-| ![](Rule4ControlPoint.jpg) |![](/re_pics/label_re.png)| ![](/re_pic/label_re_1.png)|
+| ![](Rule4ControlPoint.jpg) |![](/re_pics/label_re.png)| ![](/re_pic/label_re_1.jpg)|
 
 # Exterior Parameters Calculation
 Computed exterior parameters based on control points pairs with known 3D coordinates using 2D DLT models and Bundle Adjustment methods.
@@ -27,14 +27,14 @@ Computed exterior parameters based on control points pairs with known 3D coordin
 | kappa |2.110| 2.653|
 
 | Dimention | General Precision |
-|--|--|--|
+|--|--|
 | X |0.0084|
 | Y |0.0287|
 | Z |0.0125|
 
 # SIFT for Image Matching
 Applied SIFT algorithm for detecting corresponding points. Employed exterior parameters for depth estimation for both corresponding points pair and control points, and evaluated the precision.
-Result og SIFT:
+Result of SIFT:
 ![](/re_pics/SIFT.jpg)
 
 
