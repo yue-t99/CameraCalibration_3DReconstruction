@@ -34,7 +34,7 @@ Computed exterior parameters based on control points pairs with known 3D coordin
 | Z |0.0125|
 
 # SIFT for Image Matching
-Applied SIFT algorithm for detecting corresponding points. Employed exterior parameters for depth estimation for both corresponding points pair and control points, and evaluated the precision.
+Applied SIFT algorithm for detecting corresponding points. Employed exterior parameters for depth estimation for both corresponding points pair and control points.
 
 Result of SIFT:
 
